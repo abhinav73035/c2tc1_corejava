@@ -9,7 +9,7 @@ void calTax(Person p) {
 	}else if(p.getIncome()>=250000 && p.getIncome()<700000) {
 		p.setTax(250000*5/100);
 		// return p.getTax();
-	}else if(p.getInpcome()>=700000 && p.getIncome()<900000) {
+	}else if(p.getIncome()>=700000 && p.getIncome()<900000) {
 		p.setTax(700000*10/100);
 		//return p.getTax();
 	}else {
